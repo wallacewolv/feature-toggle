@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+}
+
+nav {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+}

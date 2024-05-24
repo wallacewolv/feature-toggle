@@ -1,0 +1,8 @@
+<!-- sidebar.component.html -->
+<nav>
+  <ul>
+    <li><a routerLink="/admin">Admin</a></li>
+    <li *ngIf="isControlEnabled()"><a routerLink="/control">Control</a></li>
+    <li *ngIf="isBoletadorEnabled()"><a routerLink="/boletador">Boletador</a></li>
+  </ul>
+</nav>
